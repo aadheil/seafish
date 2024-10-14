@@ -1,7 +1,9 @@
 import { Icon } from '@iconify/react/dist/iconify.js';
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function ProductDets() {
+    const navigate=useNavigate('')
     const [quantity, setQuantity] = useState(1);
     const [address, setAddress] = useState("");
     const [preservation, setPreservation] = useState("");
@@ -22,10 +24,14 @@ function ProductDets() {
           Email: ${email}`);
     };
 
+    const handleBack=()=>{
+navigate('/')
+    }
+
     return (
         <div className='bg-gray-100 flex flex-col items-center h-full w-full mb-10' style={{ fontFamily: 'Ropa sans' }}>
             <div className='w-11/12 flex flex-col pt-3'>
-            <span className='pb-3 flex flex-row gap-1 items-center text-gray-500'><Icon icon="ion:chevron-back" /><span>Home</span></span>
+            <span onClick={handleBack} className='pb-3 flex flex-row gap-1 items-center text-gray-500'><Icon icon="ion:chevron-back" /><span>Home</span></span>
                 {/* Image */}
                 <div className='w-full h-52 rounded-2xl shadow-lg'>
                     <img src="https://bradleysfish.com/wp-content/uploads/2019/05/B2FE40A2-F3A7-493A-BB90-D0ACB35F08BE-min-min-1536x675.jpeg" className='w-full h-full rounded-2xl' alt="Salmon" />

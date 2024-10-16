@@ -9,16 +9,16 @@ function BottomNav() {
         <span className="text-sm">Home</span>
       </div>
       <div className="flex flex-col items-center text-gray-600 hover:text-blue-500">
-        <Icon icon="ic:baseline-search" width="24" />
-        <span className="text-sm">Search</span>
-      </div>
-      <div className="flex flex-col items-center text-gray-600 hover:text-blue-500">
         <Icon icon="ic:baseline-shopping-cart" width="24" />
         <span className="text-sm">Cart</span>
       </div>
       <div className="flex flex-col items-center text-gray-600 hover:text-blue-500">
-        <Icon icon="ic:baseline-person" width="24" />
-        <span className="text-sm">Profile</span>
+        <Icon icon="ic:baseline-format-list-bulleted" width="24" /> {/* Updated for ordered list */}
+        <span className="text-sm">List</span>
+      </div>
+      <div className="flex flex-col items-center text-gray-600 hover:text-blue-500">
+        <Icon icon="ic:baseline-map" width="24" /> {/* Updated for tracking */}
+        <span className="text-sm">Track</span>
       </div>
     </div>
   )

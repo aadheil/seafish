@@ -16,7 +16,7 @@ function Products() {
     return (
         <div className="w-full h-full">
                     <div className='flex flex-row items-center'>
-                    <span className='w-24 font-bold text-gray-800'>Products</span>
+                    <span className='w-24 font-bold text-gray-600'>Products</span>
                     <span className='w-full h-0.5 bg-gray-300 rounded'></span>
                     </div>
             <div className="flex flex-col gap-5 py-5">

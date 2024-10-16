@@ -11,7 +11,7 @@ function Popular() {
         <div className="w-full h-full">
             {/* Non-scrolling header */}
             <div className='flex flex-row items-center '>
-                <span className='w-52 font-bold text-gray-800'>Popular products</span>
+                <span className='w-52 font-bold text-gray-600'>Popular products</span>
                 <span className='w-full h-0.5 bg-gray-300 rounded'></span>
             </div>
 

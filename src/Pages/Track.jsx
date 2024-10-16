@@ -1,4 +1,5 @@
 import React from 'react';
+import BottomNav from '../Components/BottomNav';
 
 function Track() {
   const steps = [
@@ -54,6 +55,7 @@ function Track() {
           ))}
         </div>
       </div>
+      <BottomNav/>
     </div>
   );
 }

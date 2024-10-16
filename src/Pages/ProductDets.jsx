@@ -1,6 +1,7 @@
 import { Icon } from '@iconify/react/dist/iconify.js';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import BottomNav from '../Components/BottomNav';
 
 function ProductDets() {
     const navigate=useNavigate('')
@@ -146,11 +147,13 @@ navigate('/')
                 {/* Add to Cart Button */}
                 <button
                     onClick={handleAddToCart}
-                    className='w-full bg-blue-500 text-white p-3 rounded-lg mt-5 font-bold'
+                    className='w-full bg-[#3A87B2] text-white p-3 mb-16 rounded-lg mt-5 text-xl'
                 >
                     Add to Cart
                 </button>
             </div>
+
+            <BottomNav/>
         </div>
     );
 }

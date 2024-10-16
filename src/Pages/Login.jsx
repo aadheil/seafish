@@ -53,6 +53,16 @@ function Login() {
                     )}
                 </div>
 
+               {isOtp&& <div className="pt-8 w-full">
+                    
+                        <input
+                            type="email"
+                            className="w-full h-12 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 text-gray-600 p-3 transition-all duration-300"
+                            placeholder="Enter OTP"
+                        />
+                    
+                </div>}
+
                 <button
                     onClick={handleOtp}
                     className="mt-6 w-full flex flex-row items-center justify-center gap-1 bg-[#3A87B2] hover:bg-blue-400 rounded-lg h-12 text-white font-semibold transition-all duration-300"

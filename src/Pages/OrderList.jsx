@@ -20,8 +20,8 @@ function OrderList() {
   ];
 
   return (
-    <div className="w-full h-dvh overflow-y-scroll flex flex-col items-center bg-gray-100" style={{ fontFamily: 'Ropa Sans' }}>
-      <div className="flex w-11/12 flex-col mb-16">
+    <div className="w-full h-full flex flex-col items-center bg-gray-100" style={{ fontFamily: 'Ropa Sans' }}>
+      <div className="flex w-11/12 flex-col pb-16">
         <span className="pb-3 pt-3 flex flex-row gap-1 items-center text-gray-600">
           <Icon icon="ion:chevron-back" />
           <span>Home</span>

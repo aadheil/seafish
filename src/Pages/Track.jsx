@@ -11,7 +11,7 @@ function Track() {
 
   return (
     <div className="w-full h-dvh flex flex-col items-center bg-gray-100" style={{ fontFamily: 'Ropa sans' }}>
-      <div className="flex w-11/12 flex-col">
+      <div className="flex w-11/12 flex-col pb-16">
         <div className="flex flex-row items-center mb-8 pt-5">
           <span className="w-24 font-bold text-gray-800">Track order</span>
           <span className="w-full h-0.5 bg-gray-300 rounded"></span>
